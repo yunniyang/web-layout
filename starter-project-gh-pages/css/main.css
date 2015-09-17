@@ -1,0 +1,45 @@
+body { 
+	background-color: #fcaeae;
+}
+
+ .container {
+     width: 98%; max-width: 978px;
+     margin: 0 auto;
+	 background-color: #ffffff;
+ }
+ 
+  .nav {
+	  padding-left: 0;
+	  list-style: none;
+  }
+  
+  .nav > li{
+	  display: inline-block;
+  }
+    
+  .nav.right {
+	  text-align: right;
+  }
+  
+  .primary a {
+	  display: block;
+	  padding: 1em;
+	  color: #85cfb4;
+	  background: #0085ff;
+  }
+  
+   .primary > li + li {
+		 margin-left: : 10px;
+	 }
+  
+ @media (max-width: 760px) {
+	 
+	 .primary > li {
+		 display: block;
+	 }
+	 
+	 .primary > li + li {
+		 margin-top: 10px;
+		 margin-left: 0px;
+	 }
+ }
